@@ -10,7 +10,7 @@ namespace ContadorCalorias // Note: actual namespace depends on the project name
         {
             string Nome, Sexo, Escolha;
             double Dias, Altura, Peso, Idade, TMB, CaloriasAtividadeFisica, CaloriasConsumidasDiariamente, PesoDesejaQueimar, IMC, CentimetrosParaMetros,
-                TempoParaQueimar, CaloriasTotaisGastasNoDia, CaloriasFinais, QuilosFinais;
+                TempoParaQueimar, CaloriasTotaisGastasNoDia, CaloriasFinais;
             Console.WriteLine("Informe seu primeiro nome:");
             Nome = Console.ReadLine();
             Console.WriteLine("Infome seu peso (ex: 97):");
